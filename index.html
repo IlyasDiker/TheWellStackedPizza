@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>The Well Stacked Pizza Co.</title>
+        <meta name="description" content="We Sell Pizza & deliver it to your house">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet/less" type="text/css" href="style.less" />
+        <script src="Libs/less.min.js" ></script>
+        <script src="Libs/preact.min.js" ></script>
+        <script src="Libs/jquery-3.5.0.js" ></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="app.js"></script>
+        <center>
+            <br/>
+            <img src="img/logo.webp" alt="" width="200px">
+        </center>
+        
+        <div class="content">
+            <center> <h1>Order your pizza</h1></center>
+           <br/>
+            <div class="inln">
+                <p>Nom du client</p>
+                <input type="text" name="username">
+            </div>
+            <div class="inln3">
+                <p>Adresse</p>
+                <input type="text" name="bank-num">
+                <button>🗺️</button>
+            </div>
+            <div class="listpz" id="here">
+                <div class="pz">
+                    <img src="pizza/Buster.webp" width="150px">
+                    <p>2$ - Buster Meal</p>
+                    <input type="number" name="pricebuster" min="0"placeholder="Quantity">
+                </div>
+                <div class="pz">
+                    <img src="pizza/DoubleD-luxe.webp" width="150px">
+                    <p>5$ - Double D</p>
+                    <input type="number" name="pricebuster" min="0"placeholder="Quantity">
+                </div>
+                <div class="pz">
+                    <img src="pizza/FullRack.webp" width="150px">
+                    <p>10$ - Full Rack</p>
+                    <input type="number" name="pricebuster" min="0" placeholder="Quantity">
+                </div>
+                <div class="pz">
+                    <img src="pizza/Salad.webp" width="150px">
+                    <p>10$ - Salad</p>
+                    <input type="number" name="pricebuster"min="0" placeholder="Quantity">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Checkout</h2><br/>
+            <div class="inln-combo">
+                <div class="cb">
+                    <input type="radio" name="t">
+                    <p>Carte Bancaire</p>
+                </div>
+                <div class="cb">
+                    <input type="radio" name="t">
+                    <p>Cheque</p>
+                </div>
+            </div>
+            <div class="inln">
+                <p>Numero C.B</p>
+                <input type="text" name="bank-num">
+            </div>
+            
+            <div class="inln">
+                <p>Total </p>
+                <input type="text" name="total" readonly>
+            </div>
+            <button class="btnsb">Checkout</button>
+        </div>
+        <div class="content2">
+            <h2>About us</h2>
+            <p style="color:black;">The Well Stacked Pizza Co. is a parody of Domino's Pizza, using a dotted logo like its real life counterpart, as well the name itself possibly referring to the stacking nature of dominoes.</p>
+            <h2>Our Stores</h2>
+            <div class="listst">
+                <div class="st">
+                    <img src="img/LittleHaiti.webp">
+                    <p>Little Haiti</p>
+                    <p>Vice City</p>
+                </div>
+                <div class="st">
+                    <img src="img/downtown.webp">
+                    <p>Downtown</p>
+                    <p>Vice City</p>
+                </div>
+                <div class="st">
+                    <img src="img/VicePoint.webp" width="100px">
+                    <p>Vice Point</p>
+                    <p>Vice City</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

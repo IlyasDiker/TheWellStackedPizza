@@ -1,0 +1,134 @@
+@bg: #a12a1b;
+@headerBg: #a12a1b;
+@header: #616468;
+@text: #fff;
+@primaryBtn: #d6a133;
+@secondaryBtn: @bg;
+@disabledBtn: @headerBg;
+@font: 'Poppins';
+@fontAr: 'Almarai';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    
+}
+
+
+.content{
+    background-color: @headerBg;
+    color : @text;
+    padding: 1em;
+    border-radius: 10px;
+    width: 620px;
+    margin: 20px auto;
+}
+
+.content2{
+    color : @headerBg;
+    padding: 1em;
+    border-radius: 10px;
+    width: 620px;
+    margin: 20px auto;
+    p{
+        padding: 10px;
+    }
+}
+
+.inln{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 250px 350px;
+
+    input{
+        border-radius: 5px;
+        border: solid 0px;
+        padding: 5px 15px;
+        height: 20px;
+    }
+}
+
+.inln3{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 250px 300px 50px;
+    input{
+        border-radius: 5px;
+        border: solid 0px;
+        padding: 5px 15px;
+    }
+    button{
+        border-radius: 5px;
+        border: solid 0px;
+        padding: 5px;
+        margin-left: 10px ;
+    }
+}
+.inln-combo{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    .cb{
+        input{
+            display: inline-block;
+        }
+        p{
+            padding-left: 10px;
+            display: inline-block;
+        }
+        img{
+            width: 50px;
+            display: inline-block;
+        }
+    }
+}
+
+.btnsb{
+    margin: 10px;
+    width: 600px;
+    border-radius: 5px;
+    border: solid 0px;
+    padding: 10px;
+    background-color: @primaryBtn;
+    color: @headerBg;
+    font-weight: bold;
+}
+
+.listpz{
+    margin-top: 10px;
+    .pz{
+        display: inline-block;
+        border-radius: 10px;
+        border: solid 1px @primaryBtn;
+        width: 150px;
+        img{
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 10px;
+        }
+        input{
+            margin: 10px;
+            border-radius: 5px;
+            border: solid 0px;
+            padding: 5px 5px;
+            width: 120px;
+        }
+    }
+}
+
+.pz:hover{
+    background-color: @primaryBtn;
+}
+
+.listst{
+    .st{
+        margin: 10px;
+        display: inline-block;
+        img{
+            width: 180px;
+            height: 100px;
+        }
+    }
+}
